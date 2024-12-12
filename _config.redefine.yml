@@ -440,13 +440,18 @@ plugins:
     enable: false # Whether to enable
   # Aplayer. See https://github.com/DIYgod/APlayer
   aplayer:
-    enable: false # Whether to enable
+    enable: true # Whether to enable
     type: fixed # fixed, mini
     audios:
-      - name: # audio name
-        artist: # audio artist
-        url: # audio url
-        cover: # audio cover url
+      - name: 程艾影 # audio name
+        artist: 赵雷 # audio artist
+        url: https://m704.music.126.net/20241212103422/bfa68cd1aeadba91565af60c56c5b4a8/jdyyaac/obj/w5rDlsOJwrLDjj7CmsOj/17718440127/8c76/13ac/12e7/1d5d0d3162e87751c8dfe25ee36f5ad8.m4a?authSecret=00000193b8a0be6c11d40a3b1da011cf # audio url
+        cover: https://p1.music.126.net/9bVOooAY6U6EJLzpv1Fikw==/109951169682871673.jpg?param=130y130 # audio cover url
+        lrc: # audio cover lrc
+      - name: 天空の城ラピュタ”~君をのせて # audio name
+        artist: 井上あずみ # audio artist
+        url: https://m704.music.126.net/20241212103858/0ae7190dd6818ebfe90906ecc3f9d7a5/jdyyaac/obj/w5rDlsOJwrLDjj7CmsOj/44956095587/70ff/e709/7be2/aefa21e023022f9c07c6f1f941f6b6ca.m4a?authSecret=00000193b8a4f2ab09270a32fc0e0006
+        cover: http://p2.music.126.net/UsbxKePGwCiRALQ5VJcsOg==/2335362697414055.jpg # audio cover url
         lrc: # audio cover lrc
 #      - name: # audio name
 #        artist: # audio artist
